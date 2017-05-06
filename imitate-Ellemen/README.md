@@ -6,6 +6,8 @@
 
 模仿杂志ellemen，之前写了一点，现在再添加一点，就将它上传吧，唯一的缺憾是，首页的左滑显示左界面，右滑显示右界面没有实现，（不知道怎么实现啊!!!）
 
+Note: 注意，你需要自己手动添加AFN， FDFullscreenPopGesture, Masonry, MJRefresh, SDWebImage, YYKit; (后面再把它弄成pods)
+
 实现的功能有：
   
   1，首页的折叠layout；
