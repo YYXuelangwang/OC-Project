@@ -119,6 +119,8 @@ static const float sampling_frequency = 30;
     HSV hsv = {0, 0, 0};
     conversionBytesToHSV(buf, width, height, bytePerRow, &hsv);
     
+    CVPixelBufferUnlockBaseAddress(pixelBuffer, 0);
+    
     CGFloat h = HertRate(_lastH, _count, hsv.h);
     _count++;
     _lastH = hsv.h;
