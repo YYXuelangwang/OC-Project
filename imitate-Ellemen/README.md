@@ -8,12 +8,12 @@
 
 1，使用charles获取数据：
 
-    1. 在mac上安装charles的证书：[Help] -> [SSL Proxying] -> [Install Charles Root Certificate]
-    2. 将手机设置为手动代理，
-    3. 使用safari打开 chls.pro/ssl 下载和安装证书certificate
-    4. 在charles的[proxy] -> [SSL Proxying Settings]中添加不信任的网址；
+   1. 在mac上安装charles的证书：[Help] -> [SSL Proxying] -> [Install Charles Root Certificate]
+   2. 将手机设置为手动代理，
+   3. 使用safari打开 chls.pro/ssl 下载和安装证书certificate
+   4. 在charles的[proxy] -> [SSL Proxying Settings]中添加不信任的网址；
     
-    ![image](https://github.com/YYXuelangwang/OC-Project/blob/master/imitate-Ellemen/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202017-05-16%2009.34.02.png)
+   ![image](https://github.com/YYXuelangwang/OC-Project/blob/master/imitate-Ellemen/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202017-05-16%2009.34.02.png)
 
 Note: 注意，你需要自己手动添加AFN， FDFullscreenPopGesture, Masonry, MJRefresh, SDWebImage, YYKit; (后面再把它弄成pods)
 
